@@ -1,4 +1,4 @@
-volatile unsigned int *const UART0DR = (unsigned int *)0x101f1000;
+volatile unsigned int *const UART0DR = (unsigned int *)0x101f1000; // Memory Mapped I/O address for UART0 data register
 
 void print_uart0(const char *s)
 {
